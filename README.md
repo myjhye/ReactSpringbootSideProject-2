@@ -16,6 +16,16 @@ DB: mysql<br><br>
 
 <br /><br /><br />
 
+
+
+<h1>서적 상세</h1>
+
+![image](https://user-images.githubusercontent.com/107673658/196767949-e43f8cc0-486f-4e03-8137-ef4367d6269b.png)
+
+
+<br /><br /><br />
+
+
 <h1>서적 찾기</h1>
 
 
