@@ -2,9 +2,11 @@
 
 Front: React<br>
 Back: Springboot<br>
-DB: mysql<br>
+DB: mysql<br><br>
 주제: 서적 소개 사이트<br>
-주요 기능: 서적 목록, 서적 찾기, 뉴스 기사 찾기, 자유 게시판
+주요 기능: 서적 목록, 서적 찾기, 뉴스 기사 찾기, 자유 게시판<br><br>
+
+※ 팀 프로젝트 외 따로 제작한 개인 프로젝트입니다.
 
 <br /><br /><br />
 
