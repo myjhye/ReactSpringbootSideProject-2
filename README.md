@@ -1,6 +1,7 @@
 # ReactSpringbootSideProject-2
-리액트/스프링부트 사용한 개인 사이드 프로젝트-2
 
+Front: React<br>
+Back: Springboot<br>
 DB: mysql<br>
 주제: 서적 소개 사이트<br>
 주요 기능: 서적 목록, 서적 찾기, 뉴스 기사 찾기, 자유 게시판
