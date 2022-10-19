@@ -43,10 +43,10 @@ function NewsFind() {
     let html = newsList.map((news) => 
         <table className={"table"}>
             <tr>
-                <td><a href={news.link}><span style={{"color": "orange"}}>{news.title}</span></a></td>
+                <td><a href={news.link}><span style={{"color": "black", "font-size": "18px"}}><strong>{news.title}</strong></span></a></td>
             </tr>
             <tr>
-                <td><a href={news.link}>{news.description}</a></td>
+                <td><a href={news.link}><span style={{"color": "black"}}>{news.description}</span></a></td>
             </tr>
         </table>
     )
@@ -55,9 +55,12 @@ function NewsFind() {
     return (
         <div className={"container"}>
             <div className={"row row1"}>
-                <h1 className={"text-center"}>뉴스 검색</h1>
-                Search: <input type={"text"} size={"25"} className={"input-sm"} onChange={newsChange} />
-                <button className={"btn btn-sm btn-danger"} onClick={findBtnClick} value={ss}>검색</button>
+                <div style={{"height": "30px"}}></div>
+                <h1 className={"text-center"}>뉴스 검색</h1><hr />
+                <div style={{"height": "80px"}}></div>
+                <input type={"text"} placeholder={"뉴스 제목/내용을 입력하세요"} size={"25"} className={"input-sm"} onChange={newsChange} />
+                <button className={"btn btn-sm btn-success"} onClick={findBtnClick} value={ss}>검색</button>
+                <div style={{"height": "30px"}}></div>
             </div>
             <div style={{"height": "20px"}}></div>
             <div className={"row row1"}>

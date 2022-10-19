@@ -77,6 +77,7 @@ function List() {
     return(
         <div className={"container-fluid"}>
             <div className={"row row1"}>
+                <div style={{"height": "30px"}}></div>
                 <h1 className={"text-center"}>자유 게시판</h1><hr />
                 <table className={"table"}>
                     <tbody>
@@ -90,7 +91,7 @@ function List() {
             <div className={"row row1"}>
                 <table className={"table"}>
                     <thead>
-                        <tr className={"success"}>
+                        <tr className={"top"}>
                             <th className={"text-center"} width={"10%"}>번호</th>
                             <th className={"text-center"} width={"45%"}>제목</th>
                             <th className={"text-center"} width={"15%"}>이름</th>
@@ -109,6 +110,7 @@ function List() {
                     <button className={"btn btn-sm btn-info" } onClick={prevHandler}>이전</button>
                         {curpage} page / {totalpage} pages
                     <button className={"btn btn-sm btn-info"} onClick={nextHandler}>다음</button>
+                    <div style={{"height": "70px"}}></div>
                 </div>
             </div>
         </div>

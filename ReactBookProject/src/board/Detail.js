@@ -24,23 +24,24 @@ function Detail() {
     return (
         <div className={"container-fluid"}>
             <div className={"row row1"}>
-                <h1 className={"text-center"}>내용 보기</h1>
+                <div style={{"height": "30px"}}></div>
+                <h1 className={"text-center"}>내용 보기</h1><hr />
                 <table className={"table"}>
                     <tbody>
                         <tr>
-                            <td width={"20%"} className={"text-center success"}>번호</td>
+                            <td width={"20%"} className={"text-center top"}>번호</td>
                             <td width={"30%"} className={"text-center"}>{vo.no}</td>
-                            <td width={"20%"} className={"text-center success"}>작성일</td>
+                            <td width={"20%"} className={"text-center top"}>작성일</td>
                             <td width={"30%"} className={"text-center"}>{vo.regdate}</td>
                         </tr>
                         <tr>
-                            <td width={"20%"} className={"text-center success"}>이름</td>
+                            <td width={"20%"} className={"text-center top"}>이름</td>
                             <td width={"30%"} className={"text-center"}>{vo.name}</td>
-                            <td width={"20%"} className={"text-center success"}>조회수</td>
+                            <td width={"20%"} className={"text-center top"}>조회수</td>
                             <td width={"30%"} className={"text-center"}>{vo.hit}</td>
                         </tr>
                         <tr>
-                            <td width={"20%"} className={"text-center success"}>제목</td>
+                            <td width={"20%"} className={"text-center top"}>제목</td>
                             <td colSpan={"3"}>{vo.subject}</td>
                         </tr>
                         <tr>
@@ -52,7 +53,7 @@ function Detail() {
                         </tr>
                         <tr>
                             <td colSpan={"4"} className={"text-right"}>
-                                <button class={"btn btn-xs btn-info"}>수정</button>
+                                <NavLink to={"/board/update/" + vo.no}><button class={"btn btn-xs btn-info"}>수정</button></NavLink>
                                 <button class={"btn btn-xs btn-warning"}>삭제</button>
                                 <NavLink to = {"/board/list"} className={"btn btn-xs btn-success"}>목록</NavLink>
                             </td>
