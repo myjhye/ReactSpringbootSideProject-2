@@ -30,11 +30,20 @@ DB: mysql<br>
 
 <br /><br /><br /><br />
 
-<h1>자유 게시판</h1>
+<h1>자유 게시판(목록)</h1>
 
 ![screencapture-localhost-3000-board-list-2022-10-19-18_42_28](https://user-images.githubusercontent.com/107673658/196656581-a6ac1ccf-430e-40c1-9bc5-68f12c35b0c8.png)
 
 
 <br /><br /><br /><br />
+
+
+
+<h1>자유 게시판(상세)</h1>
+
+
+
+![screencapture-localhost-3000-board-detail-3-2022-10-19-18_44_02](https://user-images.githubusercontent.com/107673658/196656970-59fe1ceb-a2f8-4ba5-a31e-829ba0822acb.png)
+
 
 
